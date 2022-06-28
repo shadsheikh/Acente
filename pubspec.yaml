@@ -1,0 +1,59 @@
+name: acente
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  dots_indicator: ^2.0.0
+  syncfusion_flutter_gauges: ^19.2.60
+  bubble_tab_indicator: ^0.1.5
+  flutter_neumorphic:
+    git:
+      url: https://github.com/tsvillain/Flutter-Neumorphic.git
+  flutter_bloc: ^7.0.0
+  http: ^0.13.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/presentation/Assets/Assets_Home/
+    - lib/presentation/Assets/Assets_Start_Screens/
+    - lib/presentation/Assets/Assets_Login_and_Register/
+    - lib/presentation/Assets/Assets_If_Not_Logged_In/
+    - lib/presentation/Assets/Assets_After_Login/
+    - lib/presentation/Assets/Assets_Destek/
+    - lib/presentation/Assets/Assets_Teklif_AI/
+    - lib/presentation/Assets/Assets_Kasko_Sigortasi/
+    - lib/presentation/Assets/Assets_Trafik_Sigortasi/
+    - lib/presentation/Assets/Assets_2_El_Arac_Sigortasi/
+    - lib/presentation/Assets/Assets_Bireysel_Saglik_Sigortasi/
+    - lib/presentation/Assets/Assets_Cep_Telefonu_Sigortasi/
+    - lib/presentation/Assets/Assets_Dask_Sigortasi/
+    - lib/presentation/Assets/Assets_Evcil_Hayvan_Sigortasi/
+    - lib/presentation/Assets/Assets_Konut_Sigortasi/
+    - lib/presentation/Assets/Assets_Seyahat_Saglik_Sigortasi/
+    - lib/presentation/Assets/Assets_Tamamlayici_Saglik_Sigortasi/
+    - lib/presentation/Assets/Assets_Yabanci_Saglik_Sigortasi/
+    - lib/presentation/Assets/Assets_Common/
+    - lib/presentation/Assets/Assets_Hesabim/
+
+  fonts:
+    - family: BAHNSCHRIFT
+      fonts:
+        - asset: lib/presentation/Assets/font/BAHNSCHRIFT.TTF
+
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
